@@ -14,8 +14,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/responsive-challenge-with-animation-ArDMT26yl)
-- Live Site URL: (https://nicopom.github.io/FYLO-data-storage/)
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-challenge-with-animation-ArDMT26yl
+- Live Site URL: https://nicopom.github.io/FYLO-data-storage/
 
 ## Author
 
