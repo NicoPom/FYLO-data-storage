@@ -3,50 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <meta http-equiv="refresh" content="5" >
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Fylo data storage component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+ 
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
-
-  <link rel="stylesheet" type="text/css" href="style.css">
+ 
 </head>
 <body>
   <main>
-    <div  class="menu">
-        <div class="title">
-            <img src="images/logo.svg" alt="logo"/>
+    <section class="menu">
+        <div class="menu-title">
+            <img class="title_img" src="images/logo.svg" alt="logo"/>
         </div>
-        <div class="icons">
-            <div class="square">
-                <img src="images/icon-document.svg" alt="document icon"/>
+        <div class="menu-icon">
+            <div class="icon-background">
+                <a href=""><img class="icon_img" src="images/icon-document.svg" alt="document icon" /></a>
             </div>
-            <div class="square">
-                <img src="images/icon-folder.svg" alt="folder icon"/>
+            <div class="icon-background">
+                <a href=""><img class="icon_img" src="images/icon-folder.svg" alt="folder icon"/></a>
             </div>
-            <div class="square">
-                <img src="images/icon-upload.svg" alt="upload icon" />
+            <div class="icon-background">
+                <a href=""><img class="icon_img" src="images/icon-upload.svg" alt="upload icon" /></a>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="data">
-      <p class="data_used">You’ve used 815 GB of your storage</p>
+    <section class="data">
+      <p class="data-used">You’ve used <strong>815 GB</strong> of your storage</p>
+      <div class="data-bar">
+        <div class="data-bar_gradient">
+          <div class="gradient-dot"></div>
+        </div>
+      </div>
+      <div class="data-range">
+        <span class="data-range_unit">0 GB</span>
+        <span class="data-range_unit">1000 GB</span>
+      </div>
+    </section>
 
-      <p class="0GB">0 GB</p>
-      <p class="1000GB">1000 GB</p>
-    </div>
-
-    <div class="white_card">
-       <p class="185GB">185</p> 
-       <p class="GBLEFT">GB Left</p>
-    </div>
+    <section class="white-card">
+       <span class="white-card_185">185</span> 
+       <span class="white-card_GBLEFT">GB LEFT</span>
+       <div class="triangle-topright"></div>
+    </section>
 
 
 
@@ -54,8 +61,8 @@
 
   <footer>
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/NicoPom" target="_blank">Nico Pom</a>.
     </div>
   </footer>
 
